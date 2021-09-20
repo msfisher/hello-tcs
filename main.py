@@ -2,10 +2,10 @@
 # this is used for Git / GitHub demonstration
 import random
 
-sayings = ["hola", "Bonjour", "Hello"]
+sayings = ["hola", "Bonjour", "Hello", "Zdravstvuyte", "Salve"]
 
 def sayHello(name):
-    index = random.randint(0,3)
+    index = random.randint(0,5)
     print(sayings[index] + " " + name)
 
 firstName = input("Please enter your name: ")
